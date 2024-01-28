@@ -14,7 +14,7 @@
 */
 
 /*
-    @name:          TEMPLATE_SRUCT_DECL
+    @name:          TEMPLATE_STRUCT_DECL
     @brief:         macro expanding into an OOC designed structure declaration.
     @param[in]:     data_memebers - desired structure's name >> without '"'.
     @param[in]:     arg_list -      structure's data members separated by ';' >> ex - "int m_a; double m_b".
@@ -24,7 +24,7 @@
     @pre:           none.
     @post:          none.
 */
-#define TEMPLATE_SRUCT_DECL(struct_name, data_memebers, ...)   \
+#define TEMPLATE_STRUCT_DECL(struct_name, data_memebers, ...)   \
     typedef struct S##struct_name{ \
         data_memebers;    \
     }T##struct_name;   \
