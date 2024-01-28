@@ -16,8 +16,8 @@
 /*
     @name:          TEMPLATE_STRUCT_DECL
     @brief:         macro expanding into an OOC designed structure declaration.
-    @param[in]:     data_memebers - desired structure's name >> without '"'.
-    @param[in]:     arg_list -      structure's data members separated by ';' >> ex - "int m_a; double m_b".
+    @param[in]:     struct_name -   desired structure's name >> without '"'.
+    @param[in]:     data_memebers - structure's data members separated by ';' >> ex - "int m_a; double m_b".
     @param[in]:     ... -           structure's data parameters separated by ',' >> ex - "int a, double b".
     @param[out]:    none.
     @return:        void.
